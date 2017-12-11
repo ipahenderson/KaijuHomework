@@ -1,9 +1,11 @@
 package Kaijus;
 
+import Vehicles.*;
+
 public abstract class Kaiju {
-    String name;
-    int healthValue;
-    int attackValue;
+    protected String name;
+    protected int healthValue;
+    protected int attackValue;
 
     public Kaiju(String name, int healthValue, int attackValue) {
         this.name = name;
@@ -15,6 +17,10 @@ public abstract class Kaiju {
         return name;
     }
 
+    public void setHealthValue(int healthValue) {
+        this.healthValue = healthValue;
+    }
+
     public int getHealthValue() {
         return healthValue;
     }
@@ -23,6 +29,9 @@ public abstract class Kaiju {
         return attackValue;
     }
 
-    abstract String roar();
+    abstract  String roar();
 
+    abstract public void attack(Vehicle vehicle);
+
+    abstract public void takeDamage(int damage);
 }
