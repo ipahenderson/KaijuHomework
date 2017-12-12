@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d929e47-83eb-435b-b027-6e91834dbe85" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Kaijus/IFly.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Kaijus/IWalk.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/Helicopter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/Jeep.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/Tank.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Kaijus/Godzilla.java" afterPath="$PROJECT_DIR$/src/main/java/Kaijus/Godzilla.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Kaijus/Kaiju.java" afterPath="$PROJECT_DIR$/src/main/java/Kaijus/Kaiju.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Kaijus/Otachi.java" afterPath="$PROJECT_DIR$/src/main/java/Kaijus/Otachi.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/KaijuTest.java" afterPath="$PROJECT_DIR$/src/test/java/KaijuTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -89,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Godzilla.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Godzilla.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Kaijus/Godzilla.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="e#165#166#0" expanded="true" />
                 <element signature="e#218#219#0" expanded="true" />
@@ -170,11 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KaijuTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="KaijuTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/KaijuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+            <state relative-caret-position="318">
+              <caret line="75" column="4" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -482,7 +472,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Helicopter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Tank.java" />
-        <option value="$PROJECT_DIR$/src/test/java/KaijuTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Jeep.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vehicles/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kaijus/Kaiju.java" />
@@ -490,6 +479,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Kaijus/Otachi.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kaijus/IWalk.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kaijus/IFly.java" />
+        <option value="$PROJECT_DIR$/src/test/java/KaijuTest.java" />
       </list>
     </option>
   </component>
@@ -592,7 +582,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KaijuTest.kaijuCanAttack">
+  <component name="RunManager" selected="JUnit.KaijuTest.vehicleCanSuperAttack">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -673,6 +663,46 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="KaijuTest.vehicleCanAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Kaiju_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KaijuTest" />
+      <option name="METHOD_NAME" value="vehicleCanAttack" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="KaijuTest.vehicleCanSuperAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Kaiju_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KaijuTest" />
+      <option name="METHOD_NAME" value="vehicleCanSuperAttack" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -733,16 +763,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in Kaiju_test" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.KaijuTest.canGetNameandType" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.KaijuTest.kaijuCanAttack" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.KaijuTest.vehicleCanAttack" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KaijuTest.vehicleCanSuperAttack" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.KaijuTest.kaijuCanAttack" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.KaijuTest.canGetNameandType" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Kaiju_test" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KaijuTest.vehicleCanSuperAttack" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.KaijuTest.vehicleCanAttack" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.KaijuTest.kaijuCanAttack" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.KaijuTest.canGetNameandType" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in Kaiju_test" />
       </list>
     </recent_temporary>
   </component>
@@ -775,6 +809,15 @@
     <history-entry file="KaijuTest_kaijuCanAttack - 2017.12.11 at 17h 25m 40s.xml">
       <configuration name="KaijuTest.kaijuCanAttack" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="KaijuTest_vehicleCanAttack - 2017.12.11 at 17h 40m 04s.xml">
+      <configuration name="KaijuTest.vehicleCanAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KaijuTest_vehicleCanSuperAttack - 2017.12.11 at 17h 40m 57s.xml">
+      <configuration name="KaijuTest.vehicleCanSuperAttack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KaijuTest_vehicleCanSuperAttack - 2017.12.11 at 17h 41m 19s.xml">
+      <configuration name="KaijuTest.vehicleCanSuperAttack" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="992" height="773" extended-state="0" />
@@ -789,13 +832,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3042105" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22861357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -840,29 +883,6 @@
             <element signature="e#438#439#0" expanded="true" />
             <element signature="e#603#604#0" expanded="true" />
             <element signature="e#665#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/KaijuTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="58" column="27" lean-forward="true" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Jeep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -934,8 +954,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Kaijus/Godzilla.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#218#219#0" expanded="true" />
@@ -945,6 +965,29 @@
             <element signature="e#414#415#0" expanded="true" />
             <element signature="e#576#577#0" expanded="true" />
             <element signature="e#638#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Vehicles/Jeep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/KaijuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="75" column="4" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

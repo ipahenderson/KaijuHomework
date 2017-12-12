@@ -60,6 +60,21 @@ public class KaijuTest {
         assertEquals(2, tank.getHealthValue());
     }
 
+    @Test
+    public void vehicleCanAttack(){
+        tank.attack(otachi);
+        assertEquals(3, otachi.getHealthValue());
+    }
+
+    @Test
+    public void vehicleCanSuperAttack(){
+        helicopter.superattack(godzilla);
+        assertEquals(0, godzilla.getHealthValue());
+    }
+
+
+    
+
 
 
 
